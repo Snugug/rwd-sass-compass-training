@@ -41,9 +41,10 @@ Some guidelines to speed things along:
 
   <div id="container">
     <header>
-
-      <h1><a href="/html/3-cafe">Web Chef Caf&#233;</a></h1>
-      <div id="tagline">Feeding the general population since 2006!</div>
+      <hgroup>
+        <h1><a href="/html/3-cafe">Web Chef Caf&#233;</a></h1>
+        <h3 id="tagline">Feeding the general population since 2006!</h3>
+      </hgroup>
       <nav class="clearfix">
         <ul>
           <li><a href="#info">Location</a></li>
@@ -55,12 +56,15 @@ Some guidelines to speed things along:
     </header>
     <div id="main" role="main">
 
-      <div id="info" class="vcard clearfix">
-
-        <h2><span class="fn org">Web Chef Caf&#233;</span><br class="rbr"> Hours &amp; Location</h2>
+      <article id="info" class="vcard clearfix">
+        <header>
+          <h2><span class="fn org">Web Chef Caf&#233;</span><br class="rbr"> Hours &amp; Location</h2>
+        </header>
 
         <section class="hours">
-          <h3>Hours</h3>
+          <header>
+            <h3>Hours</h3>
+          </header>
           <ul>
             <li><b>Mon-Fri:</b> 7am - 7pm</li>
             <li><b>Weekends:</b> 9am - 9pm</li>
@@ -68,7 +72,9 @@ Some guidelines to speed things along:
         </section>
 
         <section class="contact">
-          <h3>Contact</h3>
+          <header>
+            <h3>Contact</h3>
+          </header>
           <address class="adr">
             <span class="street-address">3415 Greystone Dr</span> <span class="extended-address">Ste 210</span>,<br>
             <span class="locality">Austin</span>, <span class="region">TX</span> <span class="postal-code">78731</span><br>
@@ -76,14 +82,17 @@ Some guidelines to speed things along:
             <p class="tel">512-454-6659</p>
           </address>
         </section>
-
-      </div><!-- #info -->
-
-      <div id="menu" class="clearfix">
-
-        <h2>Menu</h2>
+        
+      </article><!-- #info -->
+      
+      <article id="menu" class="clearfix">
+        <header>
+          <h2>Menu</h2>
+        </header>
         <section class="drinks">
-          <h3>Drinks</h3>
+          <header>
+            <h3>Drinks</h3>
+          </header>
           <div class="item">
             <h4>Texas Orange Margarita</h4>
             Our classic margarita! Two for one on Twosdays
@@ -102,7 +111,9 @@ Some guidelines to speed things along:
           </div>
         </section>
         <section class="entrees">
-          <h3>Entr&#233;es</h3>
+          <header>
+            <h3>Entr&#233;es</h3>
+          </header>
           <div class="item">
             <h4>Hot and crunchy chicken</h4>
             This chicken is hot and crunchy, served warm.
@@ -121,7 +132,9 @@ Some guidelines to speed things along:
           </div>
         </section>
         <section class="desserts">
-          <h3>Desserts</h3>
+          <header>
+            <h3>Desserts</h3>
+          </header>
           <div class="item">
             <h4>Sweet/Spicy coconut curry bread</h4>
             This bread is sweet and spicy, the perfect bread if you want coconut curry.
@@ -135,17 +148,18 @@ Some guidelines to speed things along:
             A festive pudding made from bread and pumpkins.
           </div>
         </section>
-
-      </div><!-- #menu -->
-
-      <div id="about" class="clearfix">
-
-        <h2>About Web Chef Caf&#233;</h2>
+        
+      </article><!-- #menu -->
+      
+      <article id="about" class="clearfix">
+        <header>
+          <h2>About Web Chef Caf&#233;</h2>
+        </header>
         <p>Web Chef Caf&#233; first opened its doors in 2006 in Austin, Texas. Keytar PBR bicycle rights food truck, craft beer letterpress sartorial vegan viral mcsweeney's trust fund DIY. Blog next level pitchfork VHS, marfa stumptown keytar brunch iphone leggings yr american apparel biodiesel mustache. Irony +1 next level beard sartorial cosby sweater fixie ethical, trust fund dreamcatcher. High life sartorial food truck american apparel, lo-fi butcher yr locavore.</p>
         <p>Banksy farm-to-table four loko, 8-bit messenger bag jean shorts mcsweeney's gluten-free put a bird on it wolf art party Austin beard. Messenger bag beard shoreditch, skateboard freegan synth before they sold out sustainable mustache etsy iphone lo-fi 8-bit organic. Mixtape bicycle rights leggings, four loko squid keffiyeh butcher 8-bit cliche cosby sweater you probably haven't heard of them craft beer.</p>
         <p><a href="http://fourkitchens.com/sites/default/files/pages/files/The-Web-Chef-Cookbook-vol-2_0.pdf">Download our Web Chef Cookbook (PDF)</a></p>
 
-      </div><!-- #about -->
+      </article><!-- #about -->
     </div><!-- #main -->
     <footer>
       <p id="copyright">&#169; 2012 Web Chef Caf&#233;. No rights reserved.</p>
