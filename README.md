@@ -21,7 +21,7 @@ Linux users, you probably know how to get Ruby on your machine. Do that. Or foll
 
 ### Getting Help
 
-If you have any questions regarding installing, they are most likely answered within the [Aurora Getting Started Manual](http://snugug.com/musings/installing-sass-and-compass-across-all-platforms)
+If you have any questions regarding installing, they are most likely answered within the [Aurora 'Getting Started' blog post](http://snugug.com/musings/installing-sass-and-compass-across-all-platforms)
 
 ## Gem installation
 
