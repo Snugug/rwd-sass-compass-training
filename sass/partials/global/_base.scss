@@ -6,18 +6,21 @@
 //  imports and imports for variables, functions, mixins, and extendables.
 ////////////////////////
 
+// Currently, there is a bug in Compass Normalize requiring us to have this variable before all of our imports and out of order. There is a pull request in to fix this, so you won't need it in the future, but for the time being, we need this.
+$legacy-support-for-mozilla: true;
+
 ////////////////////////
 // Compass Imports
 ////////////////////////
 @import "compass";
-@import "compass/reset";
+//@import "compass/reset";
 
 ////////////////////////
 // Compass Extensions
 //
 // Aurora includes Toolkit, Breakpoint, Respond-to, Sassy Buttons, and SingularityGS
 ////////////////////////
-//@import 'normalize';
+@import 'normalize';
 @import 'susy';
 //@import 'singularity';
 @import 'respond-to';
