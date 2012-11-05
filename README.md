@@ -32,3 +32,13 @@ Commands that start with # are just comments
     
     # Download and install some Compass gems
     sudo gem install compass toolkit compass-normalize sassy-buttons singularitygs
+
+## Documentation for these Compass extensions
+
+* Compass-normalize: https://github.com/ksmandersen/compass-normalize
+* Susy: http://susy.oddbird.net
+* Breakpoint: https://github.com/canarymason/breakpoint
+* Respond-to: https://github.com/snugug/respond-to
+* Toolkit: https://github.com/Snugug/toolkit
+* Sassy Buttons: http://jaredhardy.com/sassy-buttons
+* Singularity GS: http://singularity.gs
