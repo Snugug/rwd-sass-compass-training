@@ -25,4 +25,10 @@ If you have any questions regarding installing, they are most likely answered wi
 
 ## Gem installation
 
-    sudo gem install compass toolkit compass-normalize sassy-buttons
+Commands that start with # are just comments
+
+    # Update ruby, sass, compass and all existing gems
+    sudo gem update --system
+    
+    # Download and install some Compass gems
+    sudo gem install compass toolkit compass-normalize sassy-buttons singularitygs
