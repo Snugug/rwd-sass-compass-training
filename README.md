@@ -42,3 +42,13 @@ Commands that start with # are just comments
 * Toolkit: https://github.com/Snugug/toolkit
 * Sassy Buttons: http://jaredhardy.com/sassy-buttons
 * Singularity GS: http://singularity.gs
+
+## Using JavaScript to get window dimensions
+
+In the cosole of your developer tools of choice type the following line of code. Whenever you resize the window its width will be printed in the console.
+
+    window.onresize = function(){console.log(window.innerWidth);}
+
+## Using MQtest.io to get window dimensions
+
+http://mqtest.io will show you window, device, orientation, aspect-ratio, and UA.
